@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+   
+    <link rel="stylesheet" href="css_connexion_adminT.css">
+
+    <link rel="stylesheet" href="Acceuil_N.css">
+
+    <title>Document</title> 
+</head>
+<body>
+
+<nav class="navbar" >
+                <img src="serp0.jpeg" alt="" width="4%"  >
+                <ul>
+                    <li> <a href="Accueil_N.html"> HOME </a> </li>
+                    <li> <a href="connexionClient.HTML"> CONNEXION </a> </li>
+
+                    <li> <a href="Contacte.html"> CONTACT </a> </li>
+                </ul>
+                
+            </nav>
+<!-- FIM PARTIE NAVE -->
+    <div class="wrapper">
+        <div class="login_box">
+            <div class="login-header">
+                <span>Login</span>
+            </div>
+            <form method="POST" action="connexionphp_incription.php">
+            <div class="input_box">
+                <input type="text" name="Email_client" class="input-field"  required>
+                <label for="user" class="label">Adresse couriel</label>
+                <i class="bx bx-user icon"></i>
+            </div>
+            
+            <div class="input_box">
+                <input type="password" name="Mot_passe"   class="input-field" required>
+                <label for="pas" class="label">Password</label>
+                <i class="bx bx-lock-alt icon"></i>
+            </div>
+            <div class="remenber-forgot">
+                   
+                <div class="forgot">
+                    <a href="#">Mot de passe oublié ?</a>
+                </div>
+                <div class="input_box">
+                    <input type="submit" class="input-submit" value="connexion">
+                </div>
+                <div class="register">
+                    <span> ou Crée <a href="Inscription.html"> un nouveau Compte </a></span>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
